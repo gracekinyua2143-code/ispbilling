@@ -95,7 +95,8 @@ public class SecurityConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "http://192.168.15.26:4567"
+                                "http://192.168.15.26:4567",
+                                "https://leavemanagementtry.netlify.app"
                         )
                         .allowedMethods("GET","POST","PUT","DELETE","OPTIONS")
                         .allowedHeaders("*")
